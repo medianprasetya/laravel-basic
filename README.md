@@ -7,7 +7,8 @@
 
 ## How to Play?
 ```bash
-git clone https://github.com/mpdev-id/laravel-basic.git
+git clone https://github.com/mpdev-id/laravel-basic.git project-dev
+cd project-dev
 cp .env.example .env
 #and setting your database configuration
 composer install
