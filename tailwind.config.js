@@ -18,7 +18,7 @@ export default {
     },
 
     // plugins: [forms,require("daisyui"),require("@tailwindcss/typography")],
-    plugins: [require("daisyui"),require("@tailwindcss/typography")],
+    plugins: [forms,require("daisyui")],
 
     // daisyUI config (optional - here are the default values)
     daisyui: {
@@ -32,6 +32,6 @@ export default {
         logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
     },
     daisyui: {
-        themes: ["dark"],
+        themes: ["light"],
       },
 };
