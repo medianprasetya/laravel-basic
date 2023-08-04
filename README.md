@@ -7,9 +7,11 @@
 
 ## How to Play?
 ```bash
+git clone https://github.com/mpdev-id/laravel-basic.git
 cp .env.example .env
 #and setting your database configuration
 composer install
+npm i
 php artisan folio:install
 php artisan volt:install
 php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
@@ -17,7 +19,6 @@ php artisan optimize:clear
 php artisan config:clear
 php artisan migrate
 php artisan key:generate
-npm i
 npm run dev
 php artisan serve
 ```
